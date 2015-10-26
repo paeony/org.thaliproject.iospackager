@@ -8,7 +8,7 @@ To use the plugin simply install it:
 
   `cordova plugin add https://github.com/thaliproject/org.thaliproject.iospackager`
 
-Subsequent builds will create the package from the node_modules directory of www/jxcore. **Warning: This all happens by shuffling directories around in the background. If something goes wrong you ar elikley to be left with your original www directory in a new directory, app, in the root of your cordova project and no www directory.**
+Subsequent builds will create the package from the node_modules directory of www/jxcore. **Warning: This all happens by shuffling directories around in the background. If something goes wrong you are likely to be left with your original www directory in a new directory, app, in the root of your cordova project and no www directory.**
 
 To stop using the packaging feature, just uninstall the plugin:
 
