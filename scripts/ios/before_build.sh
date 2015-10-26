@@ -1,4 +1,4 @@
-(cd www/jxcore && jx package app.js thali)
+(cd www/jxcore && jx package app.js thali > /dev/null)
 mv www app
 mkdir www
 mkdir www/jxcore
