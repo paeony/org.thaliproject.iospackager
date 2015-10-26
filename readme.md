@@ -2,6 +2,19 @@
 
 A simple plugin that uses Cordova build hooks to package, via [jx package] (http://jxcore.com/docs/jxcore-feature-packaging-code-protection.html#package), the node_modules directory of a typical Thali project. Doing this makes install very much quicker since instead of installing the thousands of files in a typical node_modules tree we install just a single .jx file instead.
 
+## Usage
+
+To use the plugin simply install it:
+
+  `cordova plugin add https://github.com/thaliproject/org.thaliproject.iospackager`
+
+Subsequent builds will create the package from the node_modules directory of www/jxcore. **Warning: This all happens by shuffling directories around in the background. If something goes wrong you ar elikley to be left with your original www directory in a new directory, app, in the root of your cordova project and no www directory.**
+
+To stop using the packaging feature, just uninstall the plugin:
+
+  `cordova plugin remove org.thaliproject.iospackager`
+
+
 ### License
 
 Copyright (c) 2015 Microsoft
