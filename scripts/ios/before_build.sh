@@ -2,7 +2,7 @@
 mv www app
 mkdir www
 mkdir www/jxcore
-echo "var thali = require('thali');" > www/jxcore/app.js
+echo "var thali = require('./thali.jx');" > www/jxcore/app.js
 mv app/jxcore/thali.jx www/jxcore
 cp app/* www
 cp -R app/js www
